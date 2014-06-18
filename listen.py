@@ -1,8 +1,8 @@
 import socket
 
-local_ip = "127.0.0.1"
+local_ip = "0.0.0.0"
 bcast_port = 2050
-sock_info = (local_ip, bcast port)
+sock_info = (local_ip, bcast_port)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind(sock_info)

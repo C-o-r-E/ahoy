@@ -11,4 +11,4 @@ print "listening for connections..."
 
 while True:
     data, addr = s.recvfrom(1024)
-    print "%s: [%s]" % addr, data
+    print "%s: [%s]" % (addr, data)

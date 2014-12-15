@@ -12,7 +12,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
 while(True):
-    s.sendto("SolidXpress " + hex(mac), bcast_info)
+    s.sendto("SolidXpress 0.4 " + hex(mac), bcast_info)
     sleep(2)
 
 
